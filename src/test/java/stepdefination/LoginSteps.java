@@ -21,7 +21,7 @@ public class LoginSteps {
 
         driver.manage().window().maximize();
 
-        driver.get("https://the-internet.herokuapp.com/logins");
+        driver.get("https://the-internet.herokuapp.com/login");
     }
 
     @When("user enters valid username")
